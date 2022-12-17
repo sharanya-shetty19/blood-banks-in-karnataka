@@ -1,1 +1,1 @@
-# blood-banks-in-karanataka
+# blood-banks-in-karnataka
