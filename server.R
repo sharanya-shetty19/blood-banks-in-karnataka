@@ -51,9 +51,11 @@ shinyServer(function(input, output) {
   
   
   output$brandBar <- renderPlot({
+   
     color <- c("#1b9e77", "#d95f02", "#7570b3")
     y = c(27, 41, 131)
     barplot(y,ylab="total",xlab="hospitals",names.arg = c("Charity", "Government", "Private"),col = color)
+
   })
   
   #create a data object to display data
